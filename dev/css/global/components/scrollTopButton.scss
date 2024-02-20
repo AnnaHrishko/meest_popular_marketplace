@@ -1,0 +1,21 @@
+.scroll-top {
+    position: fixed;
+    right: 40px;
+    bottom: 80px;
+    background: #0161af;
+    color: #fff;
+    font-size: 28px;
+    transform: rotate(-90deg);
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    display: none;
+    z-index: 5;
+
+    &.active {
+        display: flex;
+    }
+}

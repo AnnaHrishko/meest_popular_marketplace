@@ -1,0 +1,33 @@
+.breadcrumbs {
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+    &-list {
+        display: flex;
+        padding: 0;
+        list-style-type: none;
+
+        a, span {
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 20px;
+        }
+
+        a {
+            color: #2361A980;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+
+            &:after {
+                content: url("/app/images/breadcrumbs-arrow.svg");
+                padding: 0 5px;
+                height: 18px;
+            }
+        }
+
+        span {
+            color: #2361A9;
+        }
+    }
+}

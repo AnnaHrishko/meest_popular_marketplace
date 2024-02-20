@@ -1,0 +1,35 @@
+.switcher {
+  display: flex;
+  border: 1px solid #D8E0EB;
+  border-radius: 100px;
+  padding: 5px;
+}
+.switcher-item {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #0061AF;
+  margin: 0 14px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 13px 26px;
+  cursor: pointer;
+}
+@media screen and (max-width: 1024px) {
+  .switcher-item {
+    font-size: 11px;
+    line-height: 13px;
+    padding: 8px 14px;
+  }
+}
+.switcher-item:last-child {
+  margin-right: 0;
+}
+.switcher-item.active {
+  color: #fff;
+  background: #0061AF;
+  border-radius: 100px;
+}

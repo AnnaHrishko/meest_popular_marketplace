@@ -1,0 +1,41 @@
+
+// @import 'animate.css';
+// @import "normalise.css";
+
+// @import "slick-carousel/slick/slick.css";
+// @import "slick-carousel/slick/slick-theme.css";
+
+@import "mixins";
+@import "./critical/helpers";
+
+@import "components/switcher";
+@import "components/slider-base";
+@import "components/buttons";
+@import "components/select";
+@import "components/input";
+@import "components/typography";
+@import "components/breadcrumbs";
+@import "components/scrollbar";
+@import "components/popup";
+@import "components/scrollTopButton";
+@import "components/footer";
+@import "components/cookie-popup";
+@import "./critical/sidebar";
+@import "./critical/header";
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container--main {
+    padding-top: 84px;
+
+    @include maxWidth1024() {
+        padding-top: 0;
+    }
+}
+
+a {
+    color: #2361A9;
+    text-decoration: underline;
+}

@@ -1,0 +1,79 @@
+@import "../mixins";
+
+.df__cookie-popup {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    max-width: 1180px;
+    width: calc(100% - 30px);
+    left: 50%;
+    transform: translate(-50%, 0);
+    background: #FFFFFF;
+    box-shadow: 0 6px 22px rgba(64, 98, 145, 0.16);
+    border-radius: 24px;
+    padding: 25px;
+    z-index: 99999;
+
+    &.active {
+        display: block;
+    }
+
+    &-title {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 26px;
+        color: #303A45;
+        margin-bottom: 10px;
+
+        @include maxWidth500() {
+            width: calc(100% - 30px);
+            font-size: 16px;
+        }
+    }
+
+    &-body {
+        display: flex;
+        align-items: center;
+
+        @include maxWidth500() {
+            flex-direction: column;
+        }
+
+        &-text {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 23px;
+            color: #303A45;
+
+            @include maxWidth500() {
+                font-size: 16px;
+                margin-bottom: 18px;
+            }
+
+            a {
+                color: #0860C7;
+                text-decoration: none;
+            }
+        }
+    }
+
+    &-close {
+        position: absolute;
+        right: 25px;
+        top: 25px;
+        cursor: pointer;
+    }
+
+    &-btn {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #0860C7;
+        border: 2px solid #0860C7;
+        border-radius: 100px;
+        height: 54px;
+        padding: 0 50px;
+        display: flex;
+        align-items: center;
+    }
+}

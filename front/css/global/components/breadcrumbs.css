@@ -1,0 +1,28 @@
+.breadcrumbs {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.breadcrumbs-list {
+  display: flex;
+  padding: 0;
+  list-style-type: none;
+}
+.breadcrumbs-list a, .breadcrumbs-list span {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+}
+.breadcrumbs-list a {
+  color: rgba(35, 97, 169, 0.5019607843);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.breadcrumbs-list a:after {
+  content: url("/app/images/breadcrumbs-arrow.svg");
+  padding: 0 5px;
+  height: 18px;
+}
+.breadcrumbs-list span {
+  color: #2361A9;
+}

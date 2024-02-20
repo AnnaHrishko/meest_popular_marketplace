@@ -1,0 +1,508 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+header.bg--blue {
+  background: #DEEBF5;
+}
+
+.container--about {
+  width: 100%;
+  max-width: 1388px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.ai {
+  align-items: center;
+}
+
+.jc {
+  justify-content: space-between;
+}
+
+.bcg_light_blue {
+  background: #DEEBF5;
+}
+
+.about_meest_sec1 {
+  background: #DEEBF5;
+  border-radius: 20px;
+  position: relative;
+  margin-bottom: 80px;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: contain;
+}
+
+.about_meest_sec1 .img_mobile {
+  display: none;
+}
+
+.about_meest_sec1 .img_mobile img {
+  width: 100%;
+  height: auto;
+  vertical-align: bottom;
+  margin-top: auto;
+}
+
+.about_meest_sec1 .text_about_meest {
+  width: 41%;
+  padding: 75px 60px 65px;
+}
+
+.about_meest_sec1 .text_about_meest .title_about_meest {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #0061AF;
+  margin-bottom: 15px;
+}
+
+.about_meest_sec1 .text_about_meest p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+  color: #0061AF;
+  margin-bottom: 20px;
+}
+
+.about_meest_sec1 .text_about_meest p:last-of-type {
+  margin-bottom: 0;
+}
+
+.sec_flex_about_meest.first {
+  background: #DEEBF5;
+  padding: 40px 0;
+}
+
+.sec_flex_about_meest_inner {
+  display: flex;
+  align-items: center;
+}
+
+.sec_flex_about_meest_inner .text_part {
+  width: 45%;
+}
+
+.sec_flex_about_meest_inner .text_part h2 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: #0061AF;
+  margin-bottom: 17px;
+}
+
+.sec_flex_about_meest_inner .text_part p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+  color: #0061AF;
+}
+
+.sec_flex_about_meest_inner .img_sec_flex_about_meest {
+  width: calc(55% - 110px);
+  margin-left: 110px;
+}
+
+.sec_flex_about_meest_inner .img_sec_flex_about_meest img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.sec_flex_about_meest.second {
+  background: #fff;
+}
+
+.sec_flex_about_meest.second .sec_flex_about_meest_inner {
+  padding: 40px 0 65px;
+}
+
+.sec_flex_about_meest.second .sec_flex_about_meest_inner .text_part p {
+  margin-bottom: 20px;
+}
+
+.sec_flex_about_meest.second .sec_flex_about_meest_inner .text_part p:last-of-type {
+  margin-bottom: 0;
+}
+
+.news_row .img_news_row {
+  display: block;
+  margin-bottom: 21px;
+}
+
+.news_row .img_news_row img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.news_row .info_news_row .title_news_row {
+  margin-bottom: 6px;
+  display: block;
+  text-decoration: none;
+}
+
+.news_row .info_news_row .title_news_row h3 {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 160%;
+  color: #2361A9;
+}
+
+.news_row .info_news_row .descr {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+  color: #606B77;
+}
+
+.top_our_news {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.top_our_news .title_our_news {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #2361A9;
+}
+
+.top_our_news .flex_button {
+  display: flex;
+  align-items: center;
+}
+
+.top_our_news .flex_button .blue_button {
+  margin-left: 25px;
+}
+
+.our_news_wraper {
+  position: relative;
+}
+
+.swiper-buttons {
+  border: 1px solid #2361A9;
+  border-radius: 1000px;
+  height: 54px !important;
+  width: 154px !important;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.swiper-button-prev, .swiper-button-next {
+  position: absolute !important;
+  margin-top: unset !important;
+  width: 52px !important;
+  height: 52px !important;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.swiper-button-prev:hover, .swiper-button-next:hover {
+  background-color: #E3EAF3 !important;
+  border-radius: 50% !important;
+}
+
+.swiper-button-prev:after, .swiper-button-next:after {
+  display: none;
+}
+
+.swiper-button-prev {
+  background-image: url(/app/images/about/arrow_slider.svg);
+  left: unset !important;
+  right: unset !important;
+  margin-top: unset !important;
+  top: unset !important;
+}
+
+.swiper-button-next {
+  background-image: url(/app/images/about/arrow_slider_next.svg);
+  right: 0 !important;
+  top: unset !important;
+}
+
+.swiper-pagination {
+  pointer-events: none;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 109%;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: rgba(35, 97, 169, 0.5);
+}
+
+.swiper-pagination .swiper-pagination-current {
+  color: #2361A9;
+}
+
+.swiper-pagination .swiper-pagination-total {
+  color: rgba(35, 97, 169, 0.5);
+}
+
+.swiper-scrollbar {
+  display: none;
+}
+
+.category_line {
+  margin-bottom: 10px;
+}
+
+.category_line .category_tag {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #2361A9;
+  padding: 3px 8px;
+  background: #DEEBF5;
+  border-radius: 2px;
+  margin-right: 2px;
+}
+
+.category_line .date_public {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 135%;
+  color: #2361A9;
+  margin-left: 10px;
+}
+
+.blue_button {
+  display: inline-flex;
+  background: #0061AF;
+  border-radius: 100px;
+  padding: 19px 35px 19px 35px;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+}
+
+.blue_button span {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 109%;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.blue_button.after_arrow:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 25px;
+  background-image: url(/app/images/about/arrow_after.svg);
+  background-size: 19px 19px;
+  background-position: center;
+  width: 19px;
+  height: 19px;
+}
+
+.blue_button.after_arrow span {
+  margin-right: 30px;
+}
+
+.our_news_sec {
+  margin-bottom: 55px;
+}
+
+.our_news_sec .blue_button {
+  display: none;
+}
+
+.our_news_sec .center_div {
+  margin-top: 20px;
+}
+
+.center_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about_meest_sec_main .on_index_link {
+  display: none;
+  text-decoration: none;
+  align-items: center;
+}
+
+.about_meest_sec_main .on_index_link h3 {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 109%;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #2361A9;
+  margin-left: 10px;
+}
+
+.about_meest_sec_main .on_index_link img {
+  width: 8px;
+  height: 8px;
+}
+
+.our_news_sec.about_meest .flex_button .blue_button {
+  display: block;
+}
+
+@media screen and (max-width: 1290px) {
+  .about_meest_sec1 .text_about_meest {
+    width: 50%;
+    padding: 45px 40px 45px;
+  }
+  .sec_flex_about_meest_inner .img_sec_flex_about_meest {
+    width: calc(55% - 30px);
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .swiper-scrollbar {
+    display: block !important;
+    background: #DEEBF5 !important;
+  }
+  .swiper-buttons {
+    display: none !important;
+  }
+  .our_news_wraper {
+    padding-bottom: 20px;
+  }
+  .swiper-scrollbar-drag {
+    background: #0061AF !important;
+    border-radius: 8px !important;
+    width: 130px !important;
+  }
+  .news_row .img_news_row {
+    margin-bottom: 10px;
+  }
+  .news_row .info_news_row .title_news_row {
+    margin-bottom: 5px;
+  }
+  .news_row .info_news_row .descr {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .news_row .category_line {
+    margin-bottom: 10px;
+  }
+  .top_our_news .title_our_news {
+    font-size: 20px;
+  }
+  .our_news_sec .blue_button {
+    display: inline-block;
+  }
+  .our_news_sec .top_our_news .blue_button {
+    display: none;
+  }
+  .blue_button {
+    padding: 15px 20px;
+  }
+  .blue_button span {
+    font-size: 13px;
+  }
+  .blue_button.after_link::after {
+    background-size: 15px 15px;
+    width: 15px;
+    height: 15px;
+  }
+  .about_meest_sec_main .on_index_link {
+    display: flex;
+  }
+  .about_meest_sec1 {
+    width: calc(100% + 30px);
+    margin-left: -15px;
+    border-radius: 0;
+    margin-bottom: 40px;
+    background-image: none !important;
+  }
+  .about_meest_sec1:after {
+    display: none;
+  }
+  .about_meest_sec1 .text_about_meest {
+    width: 100%;
+    padding: 30px 15px;
+  }
+  .about_meest_sec1 .text_about_meest .title_about_meest {
+    font-size: 28px;
+    line-height: 140%;
+    margin-bottom: 10px;
+  }
+  .about_meest_sec1 .text_about_meest p {
+    font-size: 13px;
+    line-height: 20px;
+    color: #606B77;
+  }
+  .about_meest_sec1 .img_mobile {
+    display: block;
+  }
+  .sec_flex_about_meest_inner {
+    flex-direction: column-reverse;
+  }
+  .sec_flex_about_meest_inner .text_part {
+    width: 100%;
+  }
+  .sec_flex_about_meest_inner .text_part h2 {
+    font-size: 17px;
+    line-height: 140%;
+    margin-bottom: 10px;
+  }
+  .sec_flex_about_meest_inner .text_part p {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .sec_flex_about_meest_inner .img_sec_flex_about_meest {
+    width: calc(100% + 30px);
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+  .sec_flex_about_meest_inner .img_sec_flex_about_meest img {
+    border-radius: 0;
+  }
+  .sec_flex_about_meest.first {
+    padding: 0 0 40px 0;
+  }
+  .sec_flex_about_meest.second .img_sec_flex_about_meest {
+    width: 100%;
+    margin-left: 0;
+  }
+  .sec_flex_about_meest.second .sec_flex_about_meest_inner {
+    padding: 30px 0 40px;
+  }
+  .our_news_sec.about_meest .flex_button .blue_button {
+    display: none;
+  }
+  header.bg--blue {
+    background: #DEEBF5;
+  }
+}
+@media screen and (max-width: 350px) {
+  .about_meest_sec1 .text_about_meest .title_about_meest {
+    font-size: 25px;
+  }
+}
+.container--career-vacancies {
+  margin-bottom: 40px;
+}
+.container--career-vacancies .section-title {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,61 @@
+@import "home";
+@import "../critical/home";
+
+.error_404 {
+    .section-intro {
+        height: 540px;
+
+        @include maxWidth1024() {
+            height: 600px;
+        }
+
+        &-title {
+            color: #0061AF;
+            font-weight: 700;
+            font-size: 100px;
+            line-height: 120%;
+            margin-top: 0;
+            margin-bottom: 0;
+
+            @include maxWidth1024() {
+                font-size: 60px;
+            }
+        }
+
+        &-subtitle {
+            color: #0061AF;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 25px;
+            margin-bottom: 20px;
+
+            @include maxWidth1024() {
+                font-size: 17px;
+            }
+        }
+
+        &-button {
+            padding: 20px 35px;
+            background: #0061AF;
+            border-radius: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            column-gap: 30px;
+            text-decoration: none;
+            margin-bottom: 40px;
+
+            & span {
+                text-transform: uppercase;
+                color: #FFFFFF;
+                font-weight: 700;
+                font-size: 15px;
+                line-height: 109%;
+
+                @include maxWidth1024() {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}

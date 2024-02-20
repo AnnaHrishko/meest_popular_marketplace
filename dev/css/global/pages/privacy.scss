@@ -1,0 +1,92 @@
+@import "../mixins";
+@import '../critical/helpers';
+
+.container--privacy-content {
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+    @include maxWidth500() {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .container-inner {
+        max-width: 700px;
+    }
+
+    .policy-title {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 32px;
+        display: flex;
+        align-items: flex-end;
+        color: #2361A9;
+        margin-bottom: 10px;
+
+        @include maxWidth500() {
+            font-size: 17px;
+            line-height: 27px;
+        }
+    }
+
+    .policy-subtitle {
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: 0.02em;
+        color: #0061AF;
+        margin-bottom: 10px;
+
+        @include maxWidth500() {
+            font-size: 13px;
+            line-height: 20px;
+        }
+    }
+
+    .policy-text {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: 0.02em;
+        color: #606B77;
+        margin-bottom: 30px;
+
+        @include maxWidth500() {
+            font-size: 13px;
+            line-height: 20px;
+            margin-bottom: 20px;
+        }
+
+        a {
+            color: #0061AF;
+        }
+    }
+
+    ul {
+        padding: 0 0 0 20px;
+
+        li {
+            font-size: 8px;
+            color: #606B77;
+            padding-left: 5px;
+
+            span {
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 25px;
+                letter-spacing: 0.02em;
+                color: #606B77;
+                margin-bottom: 5px;
+
+                @include maxWidth500() {
+                    font-size: 13px;
+                    line-height: 20px;
+                }
+            }
+
+            a {
+                color: #0061AF;
+            }
+        }
+    }
+}
