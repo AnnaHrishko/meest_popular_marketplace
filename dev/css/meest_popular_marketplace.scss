@@ -1740,21 +1740,20 @@ body .country-select .select2-results__option .select2-results__option--selectab
     right: 0!important;
     top: unset!important;
 }
-.swiper-pagination{
+.pagination{
+    position: absolute;
     pointer-events: none;
     top: 50%!important;
-    transform: translateY(-50%)!important;
+    left: 50%;
+    transform: translate(-50%, -50%);
     font-weight: 600;
     font-size: 15px;
     line-height: 109%;
     letter-spacing: 0.02em;
     text-transform: uppercase;
     color: rgba(35, 97, 169, 0.5);
-    .swiper-pagination-current{
+    .pagination-current{
       color: #2361A9;
-    }
-    .swiper-pagination-total{
-      color: rgba(35, 97, 169, 0.5);
     }
 }
 
