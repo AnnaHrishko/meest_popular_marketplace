@@ -3890,9 +3890,11 @@ body {
   outline: none;
   padding: 15px;
 }
-.form-clients .btn {
-  width: 100%;
-  justify-content: space-between;
+@media screen and (max-width: 991px) {
+  .form-clients .btn {
+    width: 100%;
+    justify-content: space-between;
+  }
 }
 
 .contacts-wrap {
@@ -4187,6 +4189,11 @@ body .select2-container--default .select2-results > .select2-results__options {
 
 body .country-select .select2-results__option .select2-results__option--selectable .select2-results__option--highlighted {
   display: none;
+}
+
+body .select2-selection__placeholder {
+  display: flex;
+  align-items: center;
 }
 
 .flag-icon {

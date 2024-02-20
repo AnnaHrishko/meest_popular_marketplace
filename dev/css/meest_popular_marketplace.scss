@@ -1442,8 +1442,10 @@ body{
         }
     }
     .btn{
-        width: 100%;
-        justify-content: space-between;
+        @include maxWidth991(){
+            width: 100%;
+            justify-content: space-between;
+        }
     }
 }
 .contacts-wrap{
@@ -1695,6 +1697,10 @@ body .select2-container--default .select2-results > .select2-results__options{
 }
 body .country-select .select2-results__option .select2-results__option--selectable .select2-results__option--highlighted{
     display: none;
+}
+body .select2-selection__placeholder{
+    display: flex;
+    align-items: center;
 }
 .flag-icon{
     width: 28px;
